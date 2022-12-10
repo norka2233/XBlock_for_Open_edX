@@ -1,1 +1,4 @@
-.idea/.idea/workspace.xmlvenv/.idea/
+.idea/
+.idea/workspace.xml
+venv/
+.DS_Store
