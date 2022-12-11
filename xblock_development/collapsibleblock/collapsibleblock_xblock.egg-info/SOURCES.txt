@@ -1,0 +1,13 @@
+setup.py
+collapsibleblock/__init__.py
+collapsibleblock/collapsibleblock.py
+collapsibleblock/static/README.txt
+collapsibleblock/static/css/collapsibleblock.css
+collapsibleblock/static/html/collapsibleblock.html
+collapsibleblock/static/js/src/collapsibleblock.js
+collapsibleblock_xblock.egg-info/PKG-INFO
+collapsibleblock_xblock.egg-info/SOURCES.txt
+collapsibleblock_xblock.egg-info/dependency_links.txt
+collapsibleblock_xblock.egg-info/entry_points.txt
+collapsibleblock_xblock.egg-info/requires.txt
+collapsibleblock_xblock.egg-info/top_level.txt
