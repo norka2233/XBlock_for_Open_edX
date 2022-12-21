@@ -20,3 +20,6 @@ function CollapsibleXBlock(runtime, element) {
         /* Here's where you'd do things on page load. */
     });
 }
+//$('#myCollapsible').on('hidden.bs.collapse', function () {
+//    hide.bs.collapse
+//});

@@ -3,7 +3,7 @@
 import pkg_resources
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
-from xblock.fields import Integer, Scope
+from xblock.fields import Integer, Scope, String
 
 
 class CollapsibleXBlock(XBlock):
@@ -15,10 +15,8 @@ class CollapsibleXBlock(XBlock):
     # self.<fieldname>.
 
     # TO-DO: delete count, and define your own fields.
-    count = Integer(
-        default=0, scope=Scope.user_state,
-        help="A simple counter, to show something happening",
-    )
+    count = Integer(default=0, scope=Scope.user_state, help="A simple counter, to show something happening",)
+    header = String(default="Episode", scope=Scope.user_state_summary, help="The header of the collapsible block",)
 
     def resource_string(self, path):
         """Handy helper for getting resources from our kit."""
@@ -46,7 +44,7 @@ class CollapsibleXBlock(XBlock):
         An example handler, which increments the data.
         """
         # Just to show data coming in...
-        assert data['hello'] == 'world'
+        # assert data['hello'] == 'world'
 
         self.count += 1
         return {"count": self.count}
